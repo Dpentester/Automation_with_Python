@@ -1,7 +1,7 @@
-# import drivers
+# import webdriver form selenium
 from selenium import webdriver
 
-# set the chrome path
+# set the chrome path and set destination to driver
 driver = webdriver.Chrome()
 driver.get("https://www.google.com")
 
