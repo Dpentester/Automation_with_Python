@@ -1,14 +1,25 @@
-# import webdriver form selenium
+# import webdriver
 from selenium import webdriver
 
-# set the chrome path and set destination to driver
+# import time
+import time
+
+# open the browser
 driver = webdriver.Chrome()
+
+# provide the url to browse 
 driver.get("https://www.google.com")
 
 # searchbox
 searchbox = driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input')
-searchbox.send_keys('https://www.alphahalf.com')
+searchbox.clear()
+searchbox.send_keys('alphahalf')
 
-#searchbutton
+# searchbutton
 searchbutton = driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]')
 searchbutton.click()
+
+time.sleep(7)
+
+# close the browser
+driver.close()
