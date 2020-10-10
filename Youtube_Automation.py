@@ -10,7 +10,6 @@ driver = webdriver.Chrome()
 # maximize the window
 driver.maximize_window()
 
-
 # give the link to access
 driver.get("https://www.youtube.com")
 
