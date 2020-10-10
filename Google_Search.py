@@ -1,6 +1,9 @@
 # import webdriver
 from selenium import webdriver
+
+#import time
 import time
+
 # open the browser
 driver = webdriver.Chrome()
 
