@@ -11,7 +11,7 @@ driver = webdriver.Chrome()
 driver.maximize_window()
 
 
-# ive the link to access
+# give the link to access
 driver.get("https://www.youtube.com")
 
 # Identify the youtube search box and provide xpath
