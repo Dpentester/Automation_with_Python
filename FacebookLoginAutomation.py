@@ -21,13 +21,13 @@ time.sleep(3)
 loginMail = driver.find_element_by_xpath('//*[@id="email"]')
 
 # provide email address
-loginMail.send_keys('<<MAILID>>')
+loginMail.send_keys(email)
 
 # Xpath of password
 loginPassword = driver.find_element_by_xpath('//*[@id="pass"]')
 
 # provide password
-loginPassword.send_keys('<<PASSWORD>>')
+loginPassword.send_keys(password)
 time.sleep(3)
 
 # path of Login
