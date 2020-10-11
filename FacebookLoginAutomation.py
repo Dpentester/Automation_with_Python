@@ -1,6 +1,7 @@
 # import webdriver
 from selenium import webdriver
 
+# import email and password from credentials
 from credentials import email, password
 
 # import time
