@@ -28,10 +28,10 @@ loginPassword.send_keys('yg678y9u8jh7g67f545s4s4')
 time.sleep(3)
 
 # path of Login
-nextButton = driver.find_element_by_xpath('//*[@id="u_0_b"]')
+loginButton = driver.find_element_by_xpath('//*[@id="u_0_b"]')
 
 # Click login
-nextButton.click()
+loginButton.click()
 time.sleep(10)
 
 # Close the browser
